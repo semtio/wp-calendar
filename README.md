@@ -14,5 +14,8 @@ Peculiarities:
 3) the calendar displays the current day-week
 4) warnings if the client entered incorrect data 
 5) after pressing the “send” button, the trigger for displaying additional information is triggered
+
+---
+
 It took me 25 hours to develop the mini-plugin + agree on technical information.
 
