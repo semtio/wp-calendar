@@ -1,0 +1,195 @@
+[
+    {
+        "key": "group_673cf77884318",
+        "title": "Календарь бронирования",
+        "fields": [
+            {
+                "key": "field_6740c86ecf9eb",
+                "label": "Укажите год 1",
+                "name": "current_Year_1",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2025,
+                "min": "",
+                "max": "",
+                "allow_in_bindings": 1,
+                "placeholder": "",
+                "step": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_673cf7796c950",
+                "label": "Укажите первый месяц",
+                "name": "specify_month_1",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1 Январь": "1 Январь",
+                    "2 Февраль": "2 Февраль",
+                    "3 Март": "3 Март",
+                    "4 Апрель": "4 Апрель",
+                    "5 Май": "5 Май",
+                    "6 Июнь": "6 Июнь",
+                    "7 Июль": "7 Июль",
+                    "8 Август": "8 Август",
+                    "9 Сентябрь": "9 Сентябрь",
+                    "10 Октябрь": "10 Октябрь",
+                    "11 Ноябрь": "11 Ноябрь",
+                    "12 Декабрь": "12 Декабрь"
+                },
+                "default_value": false,
+                "return_format": "value",
+                "multiple": 0,
+                "allow_null": 0,
+                "allow_in_bindings": 1,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_673cf8386c953",
+                "label": "Не рабочие дни месяца 1",
+                "name": "non_working_days_1",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "через знак \"-\" укажите не рабочие дни \r\nнапример: 29-30-31",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_6740c8adcf9ec",
+                "label": "Укажите год 2",
+                "name": "current_Year_2",
+                "aria-label": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 2025,
+                "min": "",
+                "max": "",
+                "allow_in_bindings": 1,
+                "placeholder": "",
+                "step": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_673cf7f66c952",
+                "label": "Укажите второй месяц",
+                "name": "specify_month_2",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1 Январь": "1 Январь",
+                    "2 Февраль": "2 Февраль",
+                    "3 Март": "3 Март",
+                    "4 Апрель": "4 Апрель",
+                    "5 Май": "5 Май",
+                    "6 Июнь": "6 Июнь",
+                    "7 Июль": "7 Июль",
+                    "8 Август": "8 Август",
+                    "9 Сентябрь": "9 Сентябрь",
+                    "10 Октябрь": "10 Октябрь",
+                    "11 Ноябрь": "11 Ноябрь",
+                    "12 Декабрь": "12 Декабрь"
+                },
+                "default_value": false,
+                "return_format": "value",
+                "multiple": 0,
+                "allow_null": 0,
+                "allow_in_bindings": 1,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_673cf8636c954",
+                "label": "Не рабочие дни месяца 2",
+                "name": "non_working_days_2",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "через знак \"-\" укажите не рабочие дни \r\nнапример: 1-2-3",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "allow_in_bindings": 0,
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "14050"
+                }
+            ],
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "14177"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
